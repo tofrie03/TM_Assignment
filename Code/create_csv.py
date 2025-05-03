@@ -1,7 +1,7 @@
 import yfinance as yf
 
-start_date = "2012-01-01"
-end_date = "2025-04-01"
+start_date = "2015-01-01"
+end_date = "2025-03-01"
 
 df = yf.Ticker("BTC-EUR").history(start=start_date, end=end_date, interval="1d")
 

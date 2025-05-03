@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup as bs
 
-url = "https://media.githubusercontent.com/media/tofrie03/TM_Assignment/refs/heads/main/Material/Bitcoin_2012-2025.csv"
+url = ""
 
 df = pd.read_csv(url, sep=',')
 
